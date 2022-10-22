@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ВикиХлеб</title>
+  </head>
+  <body>
+    <!--Nav -->
+    <input type="checkbox" id="toggeler" />
+    <input type="checkbox" id="lupa2" />
+    <input type="checkbox" id="lupa" />
+    <nav>
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/bread.png" alt="bread" class="bread-pic" />
+          <span>ВикиХлеб</span>
+        </div>
+      </a>
+
+      <div class="links">
+        <label for="lupa2" class="none">
+          <input class="lupa2" type="text" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass"> </i>
+        </label>
+
+        <a class="links__a" href="index.html">Главная</a>
+        <a class="links__a" href="">История </a>
+        <a class="links__a" href="">О нас</a>
+        <a class="links__a active" href="">Контакты</a>
+      </div>
+
+      <div class="icons">
+        <input class="lupa none2" type="text" placeholder="Search..." />
+        <label for="lupa" class="none2">
+          <i class="fa-solid fa-magnifying-glass"> </i>
+        </label>
+
+        <label class="burger" for="toggeler">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </label>
+      </div>
+    </nav>
+    <!-- nav End -->
+
+    <!-- ПИСАТЬ ЗДЕСЬ -->
+    <div class="contacts-page1">
+      <h1>Contacts</h1>
+      <div class="contacts-container">
+        <div class="contacts-text">
+          <p class="contacts-p1">Свяжитесь с нами</p>
+          <div class="contact-main1">
+            <p class="main-p1">71 205 9959</p>
+            <p class="main-p2">71 205 9999</p>
+          </div>
+        </div>
+        <div class="contacts-text2">
+          <p class="contacts-p2">Наша почта</p>
+          <div class="contact-main2">
+           
+            <p class="main-p3">info@ВикиХлеб.uz</p>
+            <p class="main-p4">
+              info@Викимедия.uz
+            </p>
+            <p class="main-p5">
+              info@Викисклад.uz
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-footer">
+        <div class="row-footer">
+          <div class="footer-col">
+            <h4>ВикиХлеб</h4>
+            <ul class="ul-footer">
+              <li><a href="#">Изменения</a></li>
+              <li><a href="#">контакты</a></li>
+              <li><a href="#">о нас</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Партнёры</h4>
+            <ul class="ul-footer">
+              <li><a href="#">Википедия</a></li>
+              <li><a href="#">Викимедия</a></li>
+              <li><a href="#">Викисклад</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Изделия</h4>
+            <ul class="ul-footer">
+              <li><a href="#">хлеб</a></li>
+              <li><a href="#">бисквик</a></li>
+              <li><a href="#">булочки</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Соцсети</h4>
+            <div class="social-links">
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="twitter"> <i class="fab fa-twitter"></i> </a>
+              <a href="#" class="instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- scripts -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
